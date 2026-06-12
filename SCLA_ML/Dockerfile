@@ -8,4 +8,4 @@ RUN chmod +x /entrypoint.sh
 
 RUN apt-get update && apt-get install -y --no-install-recommends curl
 
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
